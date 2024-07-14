@@ -1,0 +1,372 @@
+/* Font */
+.kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300!important;
+    font-style: normal;
+  }
+  
+  .kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kanit-medium {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .kanit-semibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .kanit-bold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .kanit-extrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .kanit-black {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .kanit-thin-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .kanit-extralight-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .kanit-light-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .kanit-regular-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .kanit-medium-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .kanit-semibold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .kanit-bold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .kanit-extrabold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .kanit-black-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+/* End Font */
+
+
+.above-nav{
+    background-color: #45CBAF;
+    padding: 15px 0;
+    color: white;
+}
+
+.above-nav svg{
+  margin: 5px;
+}
+.above-nav a{
+  text-decoration: none;
+  color: white;
+}
+
+.navbar{
+    background-color: white!important;
+}
+
+.buy-button{
+    padding: 8px 50px;
+    background-color: #45CBAF;
+    color: white;
+    border: 0;
+}
+
+@media (max-width: 992px) {
+   .above-nav{
+        display: none;
+   }
+   .above-nav-line{
+        background-color: #45CBAF;
+        height: 15px;
+        width: 100%;;
+   }
+}
+
+
+
+.page-product-view{
+    min-height: 60vmin;
+    display: flex;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.page-product-view .container{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: .8em;
+}
+
+.page-product-view h2{
+    text-align: center;
+}
+.page-product-view h3{
+  font-family: "Kanit", sans-serif;
+  font-size: 1.4em;
+}
+.page-product-view h4{
+  font-family: "Kanit", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.page-product-view .content-text{
+  padding: 1em 2em;
+}
+.page-product-view .breadcrumb{
+  font-family: "Kanit", sans-serif;
+}
+.page-product-view hr{
+  color: #000000;
+  opacity: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.page-product-view .option-button button{
+  font-family: "Kanit", sans-serif;
+  background-color: white;
+  border: 2px solid #EDEDED;
+  color: #636363;
+  width: 136px;
+  height: 36px;
+}
+.page-product-view .option-button button.active{
+  background-color: #314CC2;
+  color: white;
+  border: 2px solid #314CC2;
+
+}
+
+.page-product-view .accordion-button{
+  font-size: 0.53em;
+  font-weight: 500;
+  background-color: #F4F3F3;
+}
+.page-product-view .accordion-body p{
+  font-family: "Kanit", sans-serif;
+  font-size: .9em;
+  font-weight: 400;
+
+}
+
+.page-product-view h2{
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+}
+.page-product-view h5{
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+}
+.page-product-view .content-text p{
+  font-family: "Kanit", sans-serif;
+  color: #686868;
+}
+
+.page-product-view .txt2 button{
+  margin-top: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  width: 100%;
+  background-color: #314CC2;
+  color: white;
+  border: 0;
+  height: 55px;
+
+}
+
+.page-product-view a{
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+.page-product-view a p{
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin-bottom: 0;
+}
+.page-product-view a .eng{
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  margin-bottom: 7px;
+}
+
+.page-product-view a .size{
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-size: 0.95em;
+  color: #686868;
+}
+
+.image-preview{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #dddd;
+    margin-bottom: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F3F3;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    background-color: #F4F3F3;
+
+}
+.carousel{
+    background-color: rgba(255, 255, 255, 0.712);
+}
+.my-carousel{
+    background-color: rgba(255, 255, 255, 0.712);
+}
+.my-thumbnail button{
+    border: 0px;
+    background-color: #F4F3F3;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    max-height: 100px;
+    object-fit: contain;
+}
+.my-thumbnail img{
+  height: 80px;
+  object-fit: contain;
+}
+  
+footer{
+  font-family: "Kanit", sans-serif;
+  min-height: 40vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer h4{
+  border-bottom: solid #45CBAF 4px;
+  width: fit-content;
+}
+footer p{
+  font-weight: 300;
+}
+footer a{
+  font-weight: 300;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+footer .col-12{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+footer .col-2{
+  gap: 1em
+}
+
+footer .social{
+  flex-direction: row!important;
+  gap: 1.5em
+}
+
+@media (max-width: 576px) {
+  h1{
+    font-size: 3em!important;
+  }
+
+  footer{
+    padding-top: 3em;
+  }
+  footer .row{
+    flex-direction: column;
+    gap: 1em;
+    padding: 3em;
+  }
+  footer .row *{
+    display: flex;
+    flex-direction: column;
+  }
+  footer .social{
+    flex-direction: row!important;
+    gap: 1.5em
+  }
+  .page-product-view .row{
+    gap: 3em!important;
+  }
+  .page-product-view{
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .page-product-view .my-thumbnail{
+    margin-top: 1em;
+    gap: 1em!important;
+  }
+}
