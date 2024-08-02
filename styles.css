@@ -152,7 +152,8 @@
     min-height: 70vmin;
     background-color: #F8F8F8;
     display: flex;
-    background-position-y: 0;
+    background-size: cover;
+    background-position: center;
   }
 .page-hero h1{
     font-size: 3.6em;
@@ -162,6 +163,9 @@
 }
 .page-hero .highlight{
     color: #45CBAF;
+}
+.video-preview{
+  background: linear-gradient(to right,rgb(32,33,36) 0,rgba(0,0,0,0) 56%),linear-gradient(to top,rgb(32,33,36) 0,rgba(0,0,0,0) 56%)
 }
 .page-hero .hero-buy-button{
     height: 50px;
@@ -390,9 +394,26 @@ footer .social{
 }
 
 @media (max-width: 576px) {
-  .page-home-product-1, .page-home-product-3, .page-home-product-4{
+  .page-hero{
+    padding-top: 3em!important;
+  }
+  .page-hero iframe{
+    height: 280px!important;
+    margin-top: 1em!important;
+  }
+
+  .page-home-product-1, .page-home-product-4{
     text-align: center;
-    margin-top: 4em;
+    margin-top: 3em;
+  }
+
+  .page-home-product-3{
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  .page-home-product-3 iframe{
+    height: 280px!important;
   }
 
   .page-home-product-1 img, .page-home-product-3 img, .page-home-product-4 img{
