@@ -165,9 +165,7 @@
 .page-hero .highlight{
     color: #45CBAF;
 }
-.video-preview{
-  background: linear-gradient(to right,rgb(32,33,36) 0,rgba(0,0,0,0) 56%),linear-gradient(to top,rgb(32,33,36) 0,rgba(0,0,0,0) 56%)
-}
+
 .page-hero .hero-buy-button{
     height: 50px;
     width: 230px;
@@ -242,6 +240,7 @@
   object-fit: contain;
   overflow: hidden;
   width: 90%;
+  padding: 2em;
 }
 
 .page-home-product-1 h3{
@@ -439,7 +438,6 @@ footer .social{
     width: 100%!important;
     margin: 0!important;
     height: auto!important;
-    overflow: auto;
     max-width: 100%!important;
     min-height: auto!important;
   }
