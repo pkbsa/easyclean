@@ -180,7 +180,6 @@
                             <p>รูปแบบ</p>
                             <div class="d-flex gap-4 option-button">
                                 <button class="active" data-mdb-target="#carouselMDExample" data-mdb-slide-to="2">แบบหลอดฉีด</button>
-                                <button id="others">แบบตลับ</button>
                             </div>
                         </div>
                         
@@ -262,98 +261,6 @@
         </div>
 
     </footer>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const buttons = document.querySelectorAll('.option-button button');
-            
-            buttons.forEach(button => {
-                button.addEventListener('click', function() {
-                    buttons.forEach(btn => btn.classList.remove('active'));
-                    this.classList.add('active');
-                    if(document.getElementById("others").className.includes("active")){
-                        document.getElementById("carousel-inner").innerHTML = 
-                        `
-                            <div class="carousel-item active">
-                                <img src="./assets/products3/img-2-1.jpeg" class="d-block w-100" alt="..." />
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/products3/img-2-2.png" class="d-block w-100" alt="..." />
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/products3/img-2-3.jpeg" class="d-block w-100" alt="..." />
-                            </div>
-                        `
-                        document.getElementById("my-thumbnail").innerHTML =
-                        `
-                            <button type="button" data-mdb-target="#carouselMDExample" data-mdb-slide-to="0" class="active"
-                                aria-current="true" aria-label="Slide 1">
-                                <img class="d-block w-100 shadow-1-strong rounded" src="./assets/products3/img-2-1.jpeg"
-                                    class="img-fluid" />
-                            </button>
-                            <button type="button" data-mdb-target="#carouselMDExample" data-mdb-slide-to="1"
-                                aria-label="Slide 2">
-                                <img class="d-block w-100 shadow-1-strong rounded" src="./assets/products3/img-2-2.png"
-                                    class="img-fluid" />
-                            </button>
-                            <button type="button" data-mdb-target="#carouselMDExample" data-mdb-slide-to="2"
-                                aria-label="Slide 3">
-                                <img class="d-block w-100 shadow-1-strong rounded" src="./assets/products3/img-2-3.jpeg"
-                                    class="img-fluid" />
-                            </button>
-                        `
-                    } else {
-                        document.getElementById("carousel-inner").innerHTML = 
-                        `
-                        <div class="carousel-item active">
-                                <img src="./assets/products3/img-1.png" class="d-block w-100" alt="..." />
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/products3/img-2.png" class="d-block w-100" alt="..." />
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/products3/img-3.png" class="d-block w-100" alt="..." />
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/products3/img-4.png" class="d-block w-100" alt="..." />
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/products3/img-5.png" class="d-block w-100" alt="..." />
-                            </div>
-                        `
-                        document.getElementById("my-thumbnail").innerHTML =
-                        `
-                            <button type="button" data-mdb-target="#carouselMDExample" data-mdb-slide-to="0" class="active"
-                                aria-current="true" aria-label="Slide 1">
-                                <img class="d-block w-100 shadow-1-strong rounded" src="./assets/products3/img-1.png"
-                                    class="img-fluid" />
-                            </button>
-                            <button type="button" data-mdb-target="#carouselMDExample" data-mdb-slide-to="1"
-                                aria-label="Slide 2">
-                                <img class="d-block w-100 shadow-1-strong rounded" src="./assets/products3/img-2.png"
-                                    class="img-fluid" />
-                            </button>
-                            <button type="button" data-mdb-target="#carouselMDExample" data-mdb-slide-to="2"
-                                aria-label="Slide 3">
-                                <img class="d-block w-100 shadow-1-strong rounded" src="./assets/products3/img-3.png"
-                                    class="img-fluid" />
-                            </button>
-                            <button type="button" data-mdb-target="#carouselMDExample" data-mdb-slide-to="3"
-                            aria-label="Slide 3">
-                            <img class="d-block w-100 shadow-1-strong rounded" src="./assets/products3/img-4.png"
-                                class="img-fluid" />
-                            </button>
-                            
-                            <button type="button" data-mdb-target="#carouselMDExample" data-mdb-slide-to="4"
-                                aria-label="Slide 5">
-                                <img class="d-block w-100 shadow-1-strong rounded" src="./assets/products3/img-5.png"
-                                    class="img-fluid" />
-                            </button>
-                        `
-                    }
-                });
-            });
-        });
-    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
