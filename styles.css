@@ -107,8 +107,9 @@
     font-style: italic;
   }
 
-/* End Font */
-
+*{
+  overflow-x: hidden;
+}
 
 .above-nav{
     background-color: #45CBAF;
